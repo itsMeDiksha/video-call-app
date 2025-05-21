@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Video Call</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h2>Video Calling App</h2>
+  <p>Your Socket ID: <span id="socket-id"></span></p>
+  <input type="text" id="call-to-id" placeholder="Enter socket ID to call" />
+  <button id="call-btn">Call</button>
+  <br /><br />
+  <video id="local-video" autoplay muted playsinline></video>
+  <video id="remote-video" autoplay playsinline></video>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
