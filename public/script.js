@@ -1,4 +1,4 @@
-const socket = io("https://video-call-backend-soot.onrender.com");
+const socket = io("https://video-call-app-gvys.onrender.com");
 const peer = new RTCPeerConnection({
   iceServers: [
     {
